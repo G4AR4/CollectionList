@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JeamOO9DKszetHIkZtyfZPHUQ/r/J+9JF9P+wUZvTqEBISE+yM/LGVa9iWk19Oq9o+wPrFEgmZJKmMvMrp4ziA==",
+  "dgSpecHash": "YS23S3MsKuQ8tCBCtCYlHpjECa1paWMNFORX4xyhGJhuC1qPH+AW/NyF0UfrOb6Fb4LY0mVZ6fjaTFsQWcaAHg==",
   "success": true,
-  "projectFilePath": "/workspaces/CollectionList/CollectionList/ConsoleApp1/ConsoleApp1.csproj",
+  "projectFilePath": "/home/codespace/CollectionList/CollectionList/ConsoleApp1/ConsoleApp1.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/CollectionList/CollectionList/ConsoleApp1/ConsoleApp1.csproj": {}
+    "/home/codespace/CollectionList/CollectionList/ConsoleApp1/ConsoleApp1.csproj": {}
   },
   "projects": {
-    "/workspaces/CollectionList/CollectionList/ConsoleApp1/ConsoleApp1.csproj": {
+    "/home/codespace/CollectionList/CollectionList/ConsoleApp1/ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/CollectionList/CollectionList/ConsoleApp1/ConsoleApp1.csproj",
+        "projectUniqueName": "/home/codespace/CollectionList/CollectionList/ConsoleApp1/ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "/workspaces/CollectionList/CollectionList/ConsoleApp1/ConsoleApp1.csproj",
+        "projectPath": "/home/codespace/CollectionList/CollectionList/ConsoleApp1/ConsoleApp1.csproj",
         "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/CollectionList/CollectionList/ConsoleApp1/obj/",
+        "outputPath": "/home/codespace/CollectionList/CollectionList/ConsoleApp1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/codespace/.nuget/NuGet/NuGet.Config"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
