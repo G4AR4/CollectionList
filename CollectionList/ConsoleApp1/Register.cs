@@ -12,29 +12,36 @@ namespace connect
         {
             var hasUpperChar = new Regex(@"[A-Z]+");
             var hasSymbols = new Regex(@"[!@#$%^&*()_+=\[{\]};:<>|./?,-]");
+                   Console.WriteLine(@"
 
-            Console.WriteLine("Ievadi ID: ");
+     _       __      __       __    __    _      __ 
+    | |     / /___ _/ /______/ /_  / /   (_)____/ /_
+    | | /| / / __ `/ __/ ___/ __ \/ /   / / ___/ __/
+    | |/ |/ / /_/ / /_/ /__/ / / / /___/ (__  ) /_  
+    |__/|__/\__,_/\__/\___/_/ /_/_____/_/____/\__/                                
+            ");
+            Console.WriteLine();
+            Console.Write("     Ievadi ID: ");
             userId = Console.ReadLine();
-            Console.WriteLine("Ievadi Paroli: ");
+            Console.Write("     Ievadi Paroli: ");
             password = Console.ReadLine();
 
             while (!hasUpperChar.IsMatch(userId))
             {
-                Console.WriteLine("ID nesatur Lielos burtus, mēģiniet vēlreiz!");
-                Console.WriteLine("Ievadiet citu ID: ");
+                Console.WriteLine("     ID nesatur Lielos burtus, mēģiniet vēlreiz!");
+                Console.Write("     Ievadiet citu ID: ");
                 userId = Console.ReadLine();
-                Console.WriteLine("Ievadiet Paroli: ");
+                Console.Write("     Ievadiet Paroli: ");
                 password = Console.ReadLine();
             }
             while (hasSymbols.IsMatch(password))
             {
-                Console.WriteLine("Parole nevar saturēt simbolus,mēģiniet vēlreiz!");
-                Console.WriteLine("Ievadiet citu paroli: ");
+                Console.WriteLine("     Parole nevar saturēt simbolus,mēģiniet vēlreiz!");
+                Console.Write("     Ievadiet citu paroli: ");
                 password = Console.ReadLine();
             }
-            Console.Clear();
-
-            Console.WriteLine("Konts izveidots");
         }
     }
 }
+
+     
