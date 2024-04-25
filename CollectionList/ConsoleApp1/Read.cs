@@ -4,8 +4,19 @@ class Reader {
     public static void Read() {
 
      string filePath = "data.csv";
+    
+    using StreamReader reader = new StreamReader(filePath);
+    Console.Clear();
+    Console.WriteLine(@"
 
-          using StreamReader reader = new StreamReader(filePath);
+     _       __      __       __    __    _      __ 
+    | |     / /___ _/ /______/ /_  / /   (_)____/ /_
+    | | /| / / __ `/ __/ ___/ __ \/ /   / / ___/ __/
+    | |/ |/ / /_/ / /_/ /__/ / / / /___/ (__  ) /_  
+    |__/|__/\__,_/\__/\___/_/ /_/_____/_/____/\__/  
+            ");
+            
+            Console.WriteLine();
           while (!reader.EndOfStream)
           {
               string line = reader.ReadLine();
@@ -16,6 +27,7 @@ class Reader {
               {
                   Console.Write(value + " ");
               }
+              Console.WriteLine();
               Console.WriteLine();
           }
         }
