@@ -7,13 +7,11 @@ namespace connect
 
     public static void Main(string[] args) {
 
-<<<<<<< HEAD
       // Registry.Register();
       Log_in.Login();
       Add.CreateAndDisplayArray();
       Reader.Read();
       Editor.Edit();
-=======
        Registry.Register();
        Log_in.Login();
       // Editor.Edit();
